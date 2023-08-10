@@ -137,7 +137,7 @@ class Ipa(object):
 
 if __name__ == '__main__':
     devim_ipa = Ipa('idm-2.devim.team')
-    devim_ipa.create_ipa_session('daniil.boyko', 'PowerWolf115229')
+    devim_ipa.create_ipa_session('username', 'password')
     with open('vpn_employees1.csv', 'r', newline='') as f:
         reader = csv.reader(f)
         next(reader)
